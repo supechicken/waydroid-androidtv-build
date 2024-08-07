@@ -8,6 +8,9 @@
 - Preinstalled keyboard/Gboard not working, use [LeanKey keyboard](https://github.com/yuliskov/LeanKeyKeyboard) instead
 - Tell me if any others :)
 
+### Installation (Usage/Install GApps)
+- Check [Release](https://github.com/supechicken/waydroid-androidtv-build/releases/tag/20240807) page for more information
+
 ### Screenshots
 ![Homescreen](screenshots/homescreen.png)
 ![Google account login prompt](screenshots/google-login-prompt.png)
