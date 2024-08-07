@@ -6,7 +6,7 @@
 
 ### Known bugs
 - Preinstalled keyboard/Gboard not working, use [LeanKey keyboard](https://github.com/yuliskov/LeanKeyKeyboard) instead
-- Tell me if any others :)
+- Tell me if there are anything else :)
 
 ### Installation (Usage/Install GApps)
 - Check [Release](https://github.com/supechicken/waydroid-androidtv-build/releases/latest) page for more information
