@@ -9,3 +9,6 @@
 - Tell me if any others :)
 
 ### Screenshots
+![Homescreen](screenshots/homescreen.png)
+![Google account login prompt](screenshots/google-login-prompt.png)
+![Settings UI](screenshots/settings-ui.png)
