@@ -9,7 +9,7 @@
 - Tell me if any others :)
 
 ### Installation (Usage/Install GApps)
-- Check [Release](https://github.com/supechicken/waydroid-androidtv-build/releases/tag/20240807) page for more information
+- Check [Release](https://github.com/supechicken/waydroid-androidtv-build/releases/latest) page for more information
 
 ### Screenshots
 ![Homescreen](screenshots/homescreen.png)
