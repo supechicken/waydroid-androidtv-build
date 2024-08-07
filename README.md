@@ -1,2 +1,11 @@
-# waydroid-androidtv
-Waydroid Android TV 11 build based on LineageOS 18.1
+## Waydroid Android TV builds (LineageOS 18.1)
+### Features
+- Full-featured Android TV build without GApps (can be installed manually)
+- VA-API video acceleration support for Intel iGPUs
+- Built with Mesa 24
+
+### Known bugs
+- Preinstalled keyboard/Gboard not working, use [LeanKey keyboard](https://github.com/yuliskov/LeanKeyKeyboard) instead
+- Tell me if any others :)
+
+### Screenshots
