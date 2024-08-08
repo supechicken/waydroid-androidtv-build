@@ -6,6 +6,7 @@
 
 ### Known bugs
 - Preinstalled keyboard/Gboard not working, use [LeanKey keyboard](https://github.com/yuliskov/LeanKeyKeyboard) instead
+- Settings app crashes when developer options turned on
 - Tell me if there are anything else :)
 
 ### Installation (Usage/Install GApps)
