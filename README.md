@@ -1,6 +1,6 @@
-## Waydroid Android TV builds (LineageOS 18.1)
+## Waydroid Android TV builds (LineageOS 18.1/20)
 ### Features
-- Full-featured Android TV build without GApps (can be installed manually)
+- Full-featured Android TV 11/13 build without GApps (can be installed manually)
 - VA-API video acceleration support for Intel iGPUs
 - Built with Mesa 24
 
