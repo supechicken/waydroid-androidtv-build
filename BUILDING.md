@@ -39,7 +39,7 @@ mkdir android
 cd android
 ```
 
-- Setup LOS source **(for ATV 11)**)
+- Setup LOS source **(for ATV 11)**
 ```shell
 repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --git-lfs
 repo sync build/make
