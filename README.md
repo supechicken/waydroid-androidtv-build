@@ -1,4 +1,4 @@
-# Waydroid Android TV builds (LineageOS 18.1/20)
+# Android TV 11/13 builds for Waydroid
 [Demonstration video on YouTube](https://www.youtube.com/watch?v=NK1xxoJpPkQ)
 ## Features
 - Full-featured Android TV build without GApps (can be installed manually)
