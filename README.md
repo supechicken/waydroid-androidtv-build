@@ -18,7 +18,7 @@
 All modified materials used for building ATV images can be found in the [Waydroid-ATV](https://github.com/Waydroid-ATV) organization
 
 ## Screenshots
-<img width="750" alt="Settings UI" src="screenshots/settings-ui.png" />
 <img width="750" alt="Homescreen" src="screenshots/homescreen.png" />
+<img width="750" alt="Settings UI" src="screenshots/settings-ui.png" />
 <img width="750" alt="Google account login prompt" src="screenshots/google-login-prompt.png" />
 <img width="750" alt="Widevine DRM" src="screenshots/widevine-drm.png" />
