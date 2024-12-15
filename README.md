@@ -3,7 +3,7 @@
 ## Features
 - Full-featured Android TV 11/13 build without GApps (can be installed manually)
 - VA-API video acceleration support for Intel/AMD GPUs
-- Works with Widewine L3 (manual install required)
+- Works with Widevine L3 (manual install required)
 - Built with Mesa 24.2
 
 ## Known bugs
