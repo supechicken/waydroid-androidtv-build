@@ -7,7 +7,7 @@
 - Built with Mesa 24.2
 
 ## Known bugs
-- Preinstalled keyboard/Gboard not working, use [LeanKey keyboard](https://github.com/yuliskov/LeanKeyKeyboard) instead
+- The preinstalled keyboard (Leanback Keyboard) is not working by default, check [here](https://github.com/supechicken/waydroid-androidtv-build/wiki/Fixing-Leanback-Keyboard) for the fix
 - Settings app crashes when developer options turned on
 - Tell me if there are anything else :)
 
