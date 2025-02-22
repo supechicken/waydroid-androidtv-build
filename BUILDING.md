@@ -71,7 +71,7 @@ make systemimage -j$(nproc --all)
 make vendorimage -j$(nproc --all)
 ```
 
-### Convert resulting sparse image to standard ext4 image
+### Convert resulting sparse image to standard ext4 image (not required for ATV 13)
 - Use `simg2img`
 ```shell
 simg2img $OUT/system.img ~/system.img
