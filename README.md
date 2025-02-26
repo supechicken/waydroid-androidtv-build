@@ -1,13 +1,12 @@
 # Android TV 11/13 builds for Waydroid
 [Demonstration video on YouTube](https://www.youtube.com/watch?v=NK1xxoJpPkQ)
 ## Features
-- Full-featured Android TV 11/13 build without GApps (can be installed manually)
+- Full-featured Android TV 11/13 build with GApps preinstalled
 - VA-API video acceleration support for Intel/AMD GPUs
-- Works with Widevine L3 (manual install required)
-- Built with Mesa 24.2
+- Works with Widevine L3
+- Built with Mesa 24.3
 
 ## Known bugs
-- The preinstalled keyboard (Leanback Keyboard) is not working by default, check [here](https://github.com/supechicken/waydroid-androidtv-build/wiki/Fixing-Leanback-Keyboard) for the fix
 - Settings app crashes when developer options turned on
 - Tell me if there are anything else :)
 
