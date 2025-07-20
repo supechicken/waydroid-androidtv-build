@@ -14,14 +14,15 @@
 
 - Install `lineageos-devel` from AUR if you are using Arch Linux
 ```shell
-yay -S lineageos-devel
+yay -S lineageos-devel python-setuptools python-mako python-yaml
 ```
 
 - For Ubuntu
 ```
 apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf \
     imagemagick lib32readline-dev lib32z1-dev libelf-dev liblz4-tool libsdl1.2-dev libssl-dev libxml2 libxml2-utils \
-    lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev lib32ncurses5-dev libncurses5 libncurses5-dev
+    lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev lib32ncurses5-dev libncurses5 libncurses5-dev \
+    python3-setuptools python3-mako python3-yaml
 ```
 
 - Enable `ccache` (optional)
@@ -52,7 +53,7 @@ wget -O - https://raw.githubusercontent.com/Waydroid-ATV/android_vendor_waydroid
 repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
 repo sync build/make
 
-wget -O - https://raw.githubusercontent.com/Waydroid-ATV/android_vendor_waydroid/lineage-20/manifest_scripts/generate-manifest.sh | bash
+wget -O - https://raw.githubusercontent.com/WayDroid-ATV/android_vendor_waydroid/lineage-20/manifest_scripts/generate-manifest.sh | bash
 ```
 
 - Sync and patch source
@@ -64,8 +65,15 @@ apply-waydroid-patches
 ```
 
 - Start building
+
+> [!NOTE]
+> By default, the build will have these features enabled by default:
+>   - Widevine L3 (remove **`ANDROID_USE_WIDEVINE := true`** from `device/waydroid/waydroid/waydroid_tv_x86_64/lineage_waydroid_tv_x86_64.mk` to disable it)
+>   - ARM translation layer support (remove **`ANDROID_USE_INTEL_HOUDINI := true`** from `device/waydroid/waydroid/waydroid_tv_x86_64/lineage_waydroid_tv_x86_64.mk` to disable it)
+>   - GApps (remove **`$(call inherit-product, vendor/gapps_tv/x86_64/x86_64-vendor.mk)`** from `device/waydroid/waydroid/waydroid_tv_x86_64/lineage_waydroid_tv_x86_64.mk` to disable it)
+
 ```shell
-lunch lineage_waydroid_x86_64-userdebug
+lunch lineage_waydroid_tv_x86_64-userdebug
 
 make systemimage -j$(nproc --all)
 make vendorimage -j$(nproc --all)
